@@ -1,0 +1,45 @@
+.TopBar {
+    background-color: rgba(255, 0, 13, 0);
+    display: flex;
+    justify-content: flex-end;
+    border-width: 10px;
+    border-color: black;
+}
+  
+.body {
+height: 100%;
+width: 100%;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.right-half {
+font-family: 'Courier New', Courier, monospace;
+font-weight: 600;
+font-style: normal;
+font-size: 20px;
+line-height: 24.38px;
+position: absolute;
+height: 100%;
+width: 50%;
+left: 50%;
+background-image: url("./images/backgroundImage.jpg");
+background-size: 200% 130%;
+background-repeat: no-repeat;
+background-position: 52% 1%;
+}
+
+.left-half {
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+width: 50%;
+background-color: rgb(243, 214, 214);
+}
+
+.log {
+width: 50%;
+height: 50%;
+}

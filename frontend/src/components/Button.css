@@ -1,0 +1,22 @@
+.btn-3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 150ms linear;
+    height: 55px;
+    width: 140px;
+    border-radius: 5px;
+    background-color: rgba(235, 87, 87, 1);
+    color:rgba(255, 241, 237, 1);
+    border: none;
+  }
+.btn-3:hover {
+  background: #e02c26;
+  color: #ec817d;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #c2211c;
+  transition: all 250ms linear;
+}
+
+.btn-3:active{
+  background-color: #ec817d;
+}
